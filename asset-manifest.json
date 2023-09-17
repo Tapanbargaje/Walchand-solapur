@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Walchand-solapur/static/css/main.47bd9dea.css",
+    "main.js": "/Walchand-solapur/static/js/main.85ca88b1.js",
+    "static/js/787.a54e5ad8.chunk.js": "/Walchand-solapur/static/js/787.a54e5ad8.chunk.js",
+    "static/media/mech.jpg": "/Walchand-solapur/static/media/mech.0d19a2dfc67fc201eec2.jpg",
+    "static/media/college_building.jpg": "/Walchand-solapur/static/media/college_building.8c08adaef4fb5e95e334.jpg",
+    "static/media/it.jpg": "/Walchand-solapur/static/media/it.85ad64cb699c348fc3f4.jpg",
+    "static/media/entc.jpg": "/Walchand-solapur/static/media/entc.9992e9052b972420cbc8.jpg",
+    "static/media/e&cs.jpg": "/Walchand-solapur/static/media/e&cs.f1fff3c99f22ae7f5466.jpg",
+    "static/media/m.g.kalMV.png": "/Walchand-solapur/static/media/m.g.kalMV.c665df1e21feda17219f.png",
+    "static/media/cs.jpg": "/Walchand-solapur/static/media/cs.bbe75837bc06b360587e.jpg",
+    "static/media/m.g.kal..png": "/Walchand-solapur/static/media/m.g.kal..fc7e8e19bee99bf6ec69.png",
+    "static/media/careerform.png": "/Walchand-solapur/static/media/careerform.ee38a3f8efb2ebdb539b.png",
+    "static/media/principal.png": "/Walchand-solapur/static/media/principal.918bc93ac078540abdbc.png",
+    "static/media/secM.png": "/Walchand-solapur/static/media/secM.cf14408f5ff4065329c5.png",
+    "static/media/priM.png": "/Walchand-solapur/static/media/priM.29d86a27496ff54afabb.png",
+    "static/media/wit-left.jpg": "/Walchand-solapur/static/media/wit-left.380a9603c27718b87eb9.jpg",
+    "static/media/google-art-club.png": "/Walchand-solapur/static/media/google-art-club.e554f89b4398e2860627.png",
+    "static/media/civil.jpg": "/Walchand-solapur/static/media/civil.814434abb6e39c73c5c7.jpg",
+    "static/media/logo.png": "/Walchand-solapur/static/media/logo.7e2e488262db0948f072.png",
+    "static/media/nba_logo.jpg": "/Walchand-solapur/static/media/nba_logo.f4723123f3602475c077.jpg",
+    "index.html": "/Walchand-solapur/index.html",
+    "main.47bd9dea.css.map": "/Walchand-solapur/static/css/main.47bd9dea.css.map",
+    "main.85ca88b1.js.map": "/Walchand-solapur/static/js/main.85ca88b1.js.map",
+    "787.a54e5ad8.chunk.js.map": "/Walchand-solapur/static/js/787.a54e5ad8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47bd9dea.css",
+    "static/js/main.85ca88b1.js"
+  ]
+}
