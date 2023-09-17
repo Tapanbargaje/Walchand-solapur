@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#cont {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#desc {
+    
+    font-size: 1vw;
+    margin:0 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bolderr{
+    text-transform: capitalize;
+}
+
+#vis-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#vis-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mis-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#mis-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#goa-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#goa-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#qua-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#qua-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cor-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#cor-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#core-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+#pri-head{
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#pri-img{
+
+    max-width: 90%; 
+}
+.m-img{
+    display: none;
+}
+
+
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #content{
+        min-height: 150vh;
+    }
+    
+    #cont {
+        font-size: 2.5vw;
+    }
+
+    #desc {
+        font-size: 1.5vw;
+    }
+
+    #vis-head{
+        font-size: 2.5vw;
+    }
+
+    #vis-text{
+        font-size: 1.2vw;
+    }
+
+    #mis-head{
+        font-size: 2.5vw;
+    }
+
+    #mis-text{
+        font-size: 1.7vw;
+    }
+    
+    #goa-head{
+        font-size: 2.5vw;
+    }
+
+    #goa-text{
+        font-size: 1.7vw;
+    }
+
+    #qua-head{
+        font-size: 2.5vw;
+    }
+
+    #qua-text{
+        font-size: 1.2vw;
+    }
+    
+    #cor-head{
+        font-size: 2.5vw;
+    }
+    
+    #cor-text{
+        font-size: 1.2vw;
+    }
+    #core-text{
+        font-size: 1.7vw;
+    }
+    #pri-head{
+        font-size: 2.5vw;
+    }
+    #pri-img {
+        display: none;
+    }
+    
+    .m-img{
+       display: block;
+      
+    }
+    .m-img img{
+        padding: 0,3vw;
+        width: 320px;
+    }
+    
+}

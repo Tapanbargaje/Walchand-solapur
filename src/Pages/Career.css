@@ -1,0 +1,30 @@
+#career{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#career button{
+    padding: 2vh 5vw;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    color: white;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    outline: none;
+    border: none;
+    margin-bottom: 3vh;
+}
+#career button:hover{
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+}   
+
+@media (max-width:600px) {
+    #career button{
+        font-size: 4vw;
+    } 
+}
+
+

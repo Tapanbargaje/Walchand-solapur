@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+}
+
+#aca-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#aca-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#exa-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#exa-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#res-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#res-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+@media (max-width:600px) {
+    #cont {
+        font-size: 2.5vw;
+    }
+    
+    #aca-head{
+        margin-top: 6vh;
+        font-size: 2.5vw;
+    }
+    #aca-text {
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+
+    #exa-head{
+        font-size: 2.5vw;
+    }
+
+    #exa-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+
+    #res-head{
+        font-size: 2.5vw;
+    }
+    #res-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+        padding-bottom: 5vh;
+    }
+   
+}

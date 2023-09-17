@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cont {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+}
+
+#desc {
+    margin-bottom: 5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#loca {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#map {
+    margin-bottom: 2vh;
+}
+
+#map2 {
+    display: none;
+}
+.map-des{
+    outline: 2px solid #dadada;
+    border-radius: 2px;
+}
+
+#footer {
+    min-height: 3vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+}
+
+
+@media (max-width:600px) {
+    
+
+    #cont {
+        
+        font-size: 4vw;
+    }
+
+    #desc {
+        font-size: 3.6vw;
+    }
+
+    #map {
+        display: none;
+    }
+
+    #map2 {
+        display: block;
+    }
+
+}

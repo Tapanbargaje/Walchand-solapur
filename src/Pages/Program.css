@@ -1,0 +1,131 @@
+#bottom {
+    background: rgb(153, 255, 255);
+    background: linear-gradient(219deg, rgba(153, 255, 255, 1) 0%, rgba(12, 175, 255, 1) 50%, rgba(0, 0, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#bot-up {
+    margin-top: 4vh;
+    height: 10vh;
+}
+
+#bot-up h1 {
+    font-family: 'Roboto Slab';
+    font-weight: lighter;
+    color: #fff;
+}
+
+#bot-down {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding-bottom: 5vh;
+}
+
+.card {
+    background-color: rgba(253, 253, 253, 0.603);
+    color: #000;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 38vh;
+    width: 30%;
+    font-family: 'Roboto Slab';
+}
+
+.btn {
+    color: #fff;
+    font-size: 1.4vw;
+    margin-top: 1.5vh;
+    padding: 5px 18px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.btn:hover{
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    scale: 1.03;
+}
+.card img {
+    border: 4px solid white;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #page1 {
+        width: 100%;
+        min-height: 80vh;
+        background-color:  #F0F8FF;
+    }
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bot-up {
+        margin-top: 4vh;
+        height: 6vh;
+    }
+
+    #bot-down {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3vw;
+        
+    }
+
+    .card {
+        background-color: rgba(253, 253, 253, 0.493);
+        color: #000000;
+        border-radius: 6px;
+        margin-top: 3vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        min-height: 30vh;
+        width: 80%;
+
+    }
+    .btn{
+        color: #ffffff;
+        font-size: 4vw;
+        margin-top: 1.5vh;
+        margin-bottom: 2.5vh;
+        padding: 5px 18px;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    .card img {
+
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+}    

@@ -1,0 +1,248 @@
+#content {
+    background-color: #fff;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#iqa-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#iqa-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#imi-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#imi-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#nar-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#nar-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#nai-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#nai-text {
+    font-size: 1.08vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#naa-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#naa-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#nba-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#nba-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+#nir-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#nir-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#ari-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#ari-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#mte-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#mte-text {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+
+
+
+
+@media (max-width:600px) {
+   
+    #cont {
+        font-size: 2.5vw;
+    }
+    
+    #iqa-head{
+        margin-top: 4vh;
+        font-size: 2.5vw;
+    }
+    #iqa-text {
+        font-size: 2.2vw;
+       
+    }
+    #imi-head{
+        font-size: 2.5vw;
+    }
+
+    #imi-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+
+    #nar-head{
+        font-size: 2.5vw;
+    }
+
+    #nar-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+    #nai-head{
+        font-size: 2.5vw;
+    }
+
+    #nai-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+    #naa-head{
+        font-size: 2.5vw;
+    }
+
+    #naa-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+    #nba-head{
+        font-size: 2.5vw;
+    }
+
+    #nba-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+
+    #nir-head{
+        font-size: 2.5vw;
+    }
+    #nir-text{
+        font-size: 2.1vw;
+        line-height: 3.3vh;
+    }
+    #ari-head{
+        font-size: 2.5vw;
+    }
+
+    #ari-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+   
+
+  
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+
+
+#content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px 5px 0 0;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.c-table th{
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 1.2vw;
+}
+
+.c-table td{
+    padding: 8px 12px;
+    font-size: 1.08vw;
+}
+
+.c-table tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.c-table tr:nth-of-type(even) {
+    background-color: #f1f1f1;
+}
+
+
+.c-table tr:last-of-type{
+    border-bottom: 2px solid rgb(0, 110, 255);
+}
+
+#sectable{
+text-align: center;
+}
+
+#thtable{
+    text-align: center;
+}
+.txt{
+    width: 80%;
+    font-size: 1.09vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.h2txt{
+    font-family: 'Roboto Slab', serif;
+    margin: 6vh 0 1vh 0;
+}
+
+@media (max-width:1000px) {
+    .h2txt{
+        font-size: 3.6vw;
+    }
+
+    .c-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        width: 100px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px 5px 0 0;
+        
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+}

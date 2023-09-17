@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+.hodimgm{
+    display: none;
+}
+.hodpara{
+    display: none;
+}
+
+#textp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#imi-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#imi-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#abo-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#abo-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#vis-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#vis-text{
+    padding-bottom: 3vh;
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+#mis-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#mis-text{
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+#co-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#co-text{
+    
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+#syl-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#syl-text{
+    text-align: center;
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+#syl-text h2{
+    margin: 2vh 0;
+}
+#syl-text pre{
+    font-size: 1.2vw;
+    font-family: 'poppins';
+}
+#stu-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+#stu-text{
+    text-align: center;
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 8vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+
+@media (max-width:1000px) {
+    
+        
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    }
+    .hodimg{
+        display: none;
+    }
+    
+    .hodimgm{
+        display: block;
+        width:300px;
+    }
+    .hodpara{
+        display: block;
+        margin: 3vh 3vw;
+        font-size: 2.1vw;
+    }
+    #imi-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #imi-text{
+        font-size: 2.4vw;
+        
+    }
+    #textp2 h2{
+        font-size: 3.3vw;
+    }
+    #abo-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #abo-text{
+        font-size: 2.2vw;
+    }
+    #vis-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #vis-text{
+        font-size: 2.2vw;
+    }
+    #mis-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #mis-text{
+        font-size: 2.2vw;
+    }
+    #co-head{
+        margin-top: 2vh;
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #co-text{
+        font-size: 2.2vw;
+        line-height: 3vh;
+    }
+    #syl-head{
+        margin-top: 2vh;
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #syl-text{
+        font-size: 2.2vw;
+        line-height: 3vh;
+    }
+    #stu-head{
+        margin-top: 2vh;
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #stu-text{
+        font-size: 2.6vw;
+        line-height: 3vh;
+    }
+    #syl-text pre{
+        font-size: 2.6vw;
+        font-family: 'poppins';
+    }
+}    

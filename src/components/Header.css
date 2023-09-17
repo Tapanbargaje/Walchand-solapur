@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+
+#header {
+    z-index: 999;
+    position: sticky;
+    top: 0%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    font-family: 'Poppins', sans-serif;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.8px solid #dadada;
+    text-decoration: none;
+}
+
+#hleft {
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+#hleft img {
+    border-radius: 50%;
+    height: 55px;
+}
+
+#hleft h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    margin-left: 0.5vw;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+#hright {
+    font-size: 1.3vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+#hright a {
+    position: relative;
+    color: #e2dfdf;
+}
+
+#hright a:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+#hright a:hover:after {
+    width: 100%;
+
+}
+
+#hright h4:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+#hright a:hover {
+    color: #fff;
+}
+
+#hright i {
+    font-size: 1.5vw;
+    display: none;
+}
+
+#hnav {
+    top: 8vh;
+    position: sticky;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    background-color: #ffffff;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#hnav a {
+    color: black;
+}
+
+/* <-----------------------------Mobile Code-------------------------------> */
+@media (max-width:600px) {
+
+    #header {
+        background-color: rgb(245, 220, 220);
+    }
+
+    #hleft h2 {
+        font-size: 6vw;
+        padding-left: 0.5vw;
+    }
+
+    #hright h4 {
+        display: none;
+
+    }
+
+    #hright i {
+        display: block;
+        font-size: 6vw;
+        font-weight: 800;
+    }
+
+    #hnav {
+        display: none;
+    }
+}

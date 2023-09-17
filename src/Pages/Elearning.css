@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+#textp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#abo-head {
+    margin-top: 6vh;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#abo-text {
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 3vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+    
+}
+#vis-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#vis-text{
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 3vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+#mis-head{
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+
+#mis-text{
+    font-size: 1.08vw;
+    font-weight: 600;
+    margin:2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:1000px) {
+
+        
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+    }
+    .hodimg{
+        display: none;
+    }
+    
+    .hodimgm{
+        display: block;
+        width:300px;
+    }
+    .hodpara{
+        display: block;
+        margin: 3vh 3vw;
+        font-size: 2.1vw;
+    }
+    #imi-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #imi-text{
+        font-size: 2.4vw;
+        
+    }
+    #abo-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #abo-text{
+        font-size: 2.2vw;
+    }
+    #vis-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #vis-text{
+        font-size: 2.2vw;
+    }
+    #mis-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #mis-text{
+        font-size: 2.2vw;
+        padding-bottom: 20vh ;
+    }
+    
+
+}

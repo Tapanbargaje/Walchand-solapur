@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#content {
+    min-height: 105vh;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fee-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#fee-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#fir-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#fir-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#sec-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#sec-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#gui-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#gui-text {
+    font-size: 1.05vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+#mte-head {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#mte-text {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+}
+
+
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #cont {
+        font-size: 2.5vw;
+    }
+    
+    #fee-head{
+        margin-top: 6vh;
+        font-size: 2.5vw;
+    }
+    #fee-text {
+        font-size: 2.2vw;
+        line-height: 3.3vh;
+    }
+
+    #fir-head{
+        font-size: 2.5vw;
+    }
+
+    #fir-text{
+        font-size: 2.4vw;
+        line-height: 3.3vh;
+    }
+
+    #sec-head{
+        font-size: 2.5vw;
+    }
+    #sec-text{
+        font-size: 2.1vw;
+        line-height: 3.3vh;
+        
+    }
+    #gui-head{
+        font-size: 2.5vw;
+    }
+    #gui-text{
+        font-size: 2.1vw;
+        line-height: 3.3vh;
+        
+    }
+    #mte-head{
+        font-size: 2.5vw;
+    }
+    #mte-text{
+        font-size: 2.5vw;
+        line-height: 3.3vh;
+        
+    }
+
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+
+#club{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#art-head{
+    margin-top: 3vh;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+
+#art-text{
+    text-align: left;
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 1vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+#art-text h3{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 1vh;
+}
+#art-bot{
+    font-size: 1.15vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55vw;
+}
+#clubleft{
+    text-align: left;
+}
+#clubright{
+    margin-top:2vh;
+    font-size: 1.15vw;
+    text-align: left;
+}
+
+
+#goo-head{
+    margin-top: 3vh;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+#goo-text{
+    text-align: center;
+    font-size: 1.07vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 4vh 6vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3vh;
+}
+#goo-text img{
+    width: 50%;
+}
+#lea-head{
+    
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5vh;
+}
+#lea-text{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width:1000px) {
+   
+    #art-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #art-text{
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+    #art-text h3{
+        font-size: 2.3vw;
+    }
+    #art-bot{
+        font-size: 1.6vw;
+    }
+    #right{
+        font-size: 1.6vw;
+    }
+
+    #goo-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #goo-text{
+        font-size: 2.2vw;
+    }
+    #goo-text img{
+        width: 60%
+    }
+    #lea-head{
+        font-size: 2.5vw;
+        border-radius: 10px;
+    }
+
+    #lea-text{
+        font-size: 2.2vw;
+    }
+
+}
+
